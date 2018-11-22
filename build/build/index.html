@@ -53,7 +53,7 @@
       
         
         
-        <meta name="theme-color" content="#fb8c00">
+        <meta name="theme-color" content="#ab47bc">
       
     
     
@@ -74,7 +74,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="orange" data-md-color-accent="green">
+    <body dir="ltr" data-md-color-primary="purple" data-md-color-accent="green">
   
     <svg class="md-svg">
       <defs>
@@ -585,16 +585,16 @@
                 
                 
                 <h1 id="how-to-build-unisoc-zephyr-sdk">How to Build UNISOC Zephyr SDK</h1>
-<h2 id="choosing-your-board">Choosing your board</h2>
+<h3 id="choosing-your-board"><strong>Choosing your board</strong></h3>
 <p>The UNISOC Zephyr SDK supports building multiple boards.</p>
-<h2 id="choosing-your-profile">Choosing your profile</h2>
+<h3 id="choosing-your-profile"><strong>Choosing your profile</strong></h3>
 <p>The UNISOC Zephyr SDK supports building multiple profiles.
 All supported profiles are stored in the directory <code>apps</code>,
 and can be listed by the following command:</p>
 <pre><code class="shell">find apps/ -mindepth 1 -maxdepth 1 -type d ! -name &quot;.*&quot; -exec basename {} \;
 </code></pre>
 
-<h2 id="building">Building</h2>
+<h3 id="building"><strong>Building</strong></h3>
 <p>To build a specific profile for a specific, use the following the command:</p>
 <pre><code class="shell">BOARD=96b_ivy5661 PROFILE=repeater make
 </code></pre>

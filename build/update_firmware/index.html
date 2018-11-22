@@ -53,7 +53,7 @@
       
         
         
-        <meta name="theme-color" content="#fb8c00">
+        <meta name="theme-color" content="#ab47bc">
       
     
     
@@ -74,7 +74,7 @@
   
     
     
-    <body dir="ltr" data-md-color-primary="orange" data-md-color-accent="green">
+    <body dir="ltr" data-md-color-primary="purple" data-md-color-accent="green">
   
     <svg class="md-svg">
       <defs>
@@ -602,11 +602,11 @@
 <p>To update firmware, please follow the procedure below:</p>
 <h4 id="step-0-install-the-flash-programming-tool-before-updating"><strong>Step 0</strong>: Install the flash programming tool before updating.</h4>
 <p>Download the <a href="https://github.com/unisoc/dloader/releases/download/unisoc-v0.3.1/dloader_0.3.1-1_amd64.deb">dloader</a> and install it.</p>
-<pre><code class="shell">  sudo dpkg -i dloader_0.x.x-1_amd64.deb
+<pre><code class="shell">sudo dpkg -i dloader_0.x.x-1_amd64.deb
 </code></pre>
 
 <p>In addition, you can build the dloader.</p>
-<pre><code class="shell">  make dloader
+<pre><code class="shell">make dloader
 </code></pre>
 
 <h4 id="step-1-switch-bootstrap-pin-to-rom-code-mode"><strong>Step 1</strong>: Switch bootstrap pin to ROM Code mode.</h4>
@@ -620,8 +620,8 @@
   │    └─┘       │
   └──────────────┘</p>
 <h4 id="step-2-power-on-the-board-and-execute-the-following-sequence-of-commands"><strong>Step 2</strong>: Power on the board, and execute the following sequence of commands:</h4>
-<pre><code class="shell">  cd output/repeater/images
-  ./update_fw.sh
+<pre><code class="shell">cd output/repeater/images
+./update_fw.sh
 </code></pre>
 
 <h4 id="step-3-switch-bootstrap-pin-to-nor-flash-mode-again-and-push-the-reset-button"><strong>Step 3</strong>: Switch bootstrap pin to NOR Flash mode again and push the reset button.</h4>
@@ -635,7 +635,7 @@
   │ └─┘          │
   └──────────────┘</p>
 <p>To update one image or several images, please refer to help of <code>update_fw.sh</code>.</p>
-<pre><code class="shell">  ./update_fw.sh -h
+<pre><code class="shell">./update_fw.sh -h
 </code></pre>
                 
                   
