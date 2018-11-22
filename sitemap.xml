@@ -16,7 +16,37 @@
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/soc/uwp5661/</loc>
+     <loc>https://unisoc.github.io/build/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/build/build/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/build/debug/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/build/download_source/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/build/setup_env/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/build/update_firmware/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/soc/UWP5661/</loc>
      <lastmod>2018-11-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
