@@ -10,4 +10,19 @@
      <lastmod>2018-11-22</lastmod>
      <changefreq>daily</changefreq>
     </url>
+    <url>
+     <loc>https://unisoc.github.io/board/96b_ivy5661/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/soc/uwp5661/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+    <url>
+     <loc>https://unisoc.github.io/tools/dloader/</loc>
+     <lastmod>2018-11-22</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
 </urlset>
