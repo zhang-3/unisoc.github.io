@@ -42,7 +42,7 @@
     
     
       
-        <title>How to Build UNISOC Zephyr SDK - UNISOC IoT Documents</title>
+        <title>Build UNISOC SDK - UNISOC IoT Documents</title>
       
     
     
@@ -131,7 +131,7 @@
                 UNISOC IoT Documents
               </span>
               <span class="md-header-nav__topic">
-                How to Build UNISOC Zephyr SDK
+                Build UNISOC SDK
               </span>
             
           
@@ -201,6 +201,95 @@
         
       
       
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  <li class="md-tabs__item">
+    
+      <a href="../.." title="Home" class="md-tabs__link">
+        Home
+      </a>
+    
+  </li>
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../chip/" title="Chips" class="md-tabs__link">
+          Chips
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../board/" title="Boards" class="md-tabs__link">
+          Boards
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../" title="SDK" class="md-tabs__link md-tabs__link--active">
+          SDK
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../apps/" title="Applications" class="md-tabs__link">
+          Applications
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../tools/" title="Tools" class="md-tabs__link">
+          Tools
+        </a>
+      
+    </li>
+  
+
+      
+        
+      
+    </ul>
+  </div>
+</nav>
+      
       <main class="md-main">
         <div class="md-main__inner md-grid" data-md-component="container">
           
@@ -259,10 +348,46 @@
       
 
 
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Chips
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Chips
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
   <li class="md-nav__item">
-    <a href="../../about/" title="About" class="md-nav__link">
-      About
+    <a href="../../chip/" title="Overview" class="md-nav__link">
+      Overview
     </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../chip/UWP5661/" title="UWP5661" class="md-nav__link">
+      UWP5661
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
   </li>
 
     
@@ -276,14 +401,26 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
     
     <label class="md-nav__link" for="nav-3">
-      Board
+      Boards
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-3">
-        Board
+        Boards
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../board/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
         
           
           
@@ -314,11 +451,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4" checked>
     
     <label class="md-nav__link" for="nav-4">
-      Build
+      SDK
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-4">
-        Build
+        SDK
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -329,8 +466,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../" title="UNISOC Zephyr SDK" class="md-nav__link">
-      UNISOC Zephyr SDK
+    <a href="../" title="Overview" class="md-nav__link">
+      Overview
     </a>
   </li>
 
@@ -350,11 +487,11 @@
     
     
       <label class="md-nav__link md-nav__link--active" for="__toc">
-        How to Build UNISOC Zephyr SDK
+        Build UNISOC SDK
       </label>
     
-    <a href="./" title="How to Build UNISOC Zephyr SDK" class="md-nav__link md-nav__link--active">
-      How to Build UNISOC Zephyr SDK
+    <a href="./" title="Build UNISOC SDK" class="md-nav__link md-nav__link--active">
+      Build UNISOC SDK
     </a>
     
       
@@ -366,6 +503,20 @@
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-source-code" title="Downloading source code" class="md-nav__link">
+    Downloading source code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-development-environment" title="Setting up Development Environment" class="md-nav__link">
+    Setting up Development Environment
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#choosing-your-board" title="Choosing your board" class="md-nav__link">
@@ -405,8 +556,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../debug/" title="How to Debug" class="md-nav__link">
-      How to Debug
+    <a href="../update_firmware/" title="Updating firmware" class="md-nav__link">
+      Updating firmware
     </a>
   </li>
 
@@ -417,32 +568,8 @@
 
 
   <li class="md-nav__item">
-    <a href="../download_source/" title="How to Download UNISOC Zephyr SDK" class="md-nav__link">
-      How to Download UNISOC Zephyr SDK
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../setup_env/" title="How to Set up Development Environment" class="md-nav__link">
-      How to Set up Development Environment
-    </a>
-  </li>
-
-        
-          
-          
-          
-
-
-  <li class="md-nav__item">
-    <a href="../update_firmware/" title="How to Update Firmware" class="md-nav__link">
-      How to Update Firmware
+    <a href="../debug/" title="Debugging" class="md-nav__link">
+      Debugging
     </a>
   </li>
 
@@ -462,11 +589,11 @@
       <input class="md-toggle md-nav__toggle" data-md-toggle="nav-5" type="checkbox" id="nav-5">
     
     <label class="md-nav__link" for="nav-5">
-      Soc
+      Applications
     </label>
     <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
       <label class="md-nav__title" for="nav-5">
-        Soc
+        Applications
       </label>
       <ul class="md-nav__list" data-md-scrollfix>
         
@@ -477,8 +604,20 @@
 
 
   <li class="md-nav__item">
-    <a href="../../soc/UWP5661/" title="UWP5661" class="md-nav__link">
-      UWP5661
+    <a href="../../apps/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../apps/wifi_repeater/" title="Wi-Fi Repeater" class="md-nav__link">
+      Wi-Fi Repeater
     </a>
   </li>
 
@@ -513,14 +652,38 @@
 
 
   <li class="md-nav__item">
-    <a href="../../tools/dloader/" title="Dloader" class="md-nav__link">
-      Dloader
+    <a href="../../tools/" title="Overview" class="md-nav__link">
+      Overview
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../tools/dloader/" title="DLoader" class="md-nav__link">
+      DLoader
     </a>
   </li>
 
         
       </ul>
     </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../about/" title="About" class="md-nav__link">
+      About
+    </a>
   </li>
 
     
@@ -543,6 +706,20 @@
   
     <label class="md-nav__title" for="__toc">Table of contents</label>
     <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#downloading-source-code" title="Downloading source code" class="md-nav__link">
+    Downloading source code
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#setting-up-development-environment" title="Setting up Development Environment" class="md-nav__link">
+    Setting up Development Environment
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#choosing-your-board" title="Choosing your board" class="md-nav__link">
@@ -584,18 +761,28 @@
                   <a href="https://github.com/unisoc/documentation/edit/master/docs/build/build.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
                 
                 
-                <h1 id="how-to-build-unisoc-zephyr-sdk">How to Build UNISOC Zephyr SDK</h1>
-<h3 id="choosing-your-board"><strong>Choosing your board</strong></h3>
+                <h1 id="how-to-build-unisoc-zephyr-sdk">How to Build UNISOC Zephyr SDK<a class="headerlink" href="#how-to-build-unisoc-zephyr-sdk" title="Permanent link">&para;</a></h1>
+<h3 id="downloading-source-code"><strong>Downloading source code</strong><a class="headerlink" href="#downloading-source-code" title="Permanent link">&para;</a></h3>
+<p>To download the source code, please follow the commands below:</p>
+<pre><code class="shell">mkdir unisoc_zephyr_sdk &amp;&amp; cd unisoc_zephyr_sdk
+repo init -u https://github.com/unisoc/manifests.git -b master
+repo sync
+repo start --all master
+</code></pre>
+
+<h3 id="setting-up-development-environment"><strong>Setting up Development Environment</strong><a class="headerlink" href="#setting-up-development-environment" title="Permanent link">&para;</a></h3>
+<p>Please refer to <a href="https://docs.zephyrproject.org/latest/getting_started/getting_started.html#getting-started-guide">Getting Started Guide</a>.</p>
+<h3 id="choosing-your-board"><strong>Choosing your board</strong><a class="headerlink" href="#choosing-your-board" title="Permanent link">&para;</a></h3>
 <p>The UNISOC Zephyr SDK supports building multiple boards.</p>
-<h3 id="choosing-your-profile"><strong>Choosing your profile</strong></h3>
+<h3 id="choosing-your-profile"><strong>Choosing your profile</strong><a class="headerlink" href="#choosing-your-profile" title="Permanent link">&para;</a></h3>
 <p>The UNISOC Zephyr SDK supports building multiple profiles.
 All supported profiles are stored in the directory <code>apps</code>,
 and can be listed by the following command:</p>
 <pre><code class="shell">find apps/ -mindepth 1 -maxdepth 1 -type d ! -name &quot;.*&quot; -exec basename {} \;
 </code></pre>
 
-<h3 id="building"><strong>Building</strong></h3>
-<p>To build a specific profile for a specific, use the following the command:</p>
+<h3 id="building"><strong>Building</strong><a class="headerlink" href="#building" title="Permanent link">&para;</a></h3>
+<p>To build a specific profile for a specific board, use the following the command:</p>
 <pre><code class="shell">BOARD=96b_ivy5661 PROFILE=repeater make
 </code></pre>
 
@@ -627,7 +814,7 @@ and can be listed by the following command:</p>
     <div class="md-footer-nav">
       <nav class="md-footer-nav__inner md-grid">
         
-          <a href="../" title="UNISOC Zephyr SDK" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+          <a href="../" title="Overview" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
             <div class="md-flex__cell md-flex__cell--shrink">
               <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
             </div>
@@ -636,19 +823,19 @@ and can be listed by the following command:</p>
                 <span class="md-footer-nav__direction">
                   Previous
                 </span>
-                UNISOC Zephyr SDK
+                Overview
               </span>
             </div>
           </a>
         
         
-          <a href="../debug/" title="How to Debug" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../update_firmware/" title="Updating firmware" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
               <span class="md-flex__ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                How to Debug
+                Updating firmware
               </span>
             </div>
             <div class="md-flex__cell md-flex__cell--shrink">
