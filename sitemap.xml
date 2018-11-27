@@ -2,72 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
      <loc>https://unisoc.github.io/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/chip/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/chips/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/chip/UWP5661/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/chips/UWP5661/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/board/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/boards/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/board/96b_ivy5661/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/boards/96b_ivy5661/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/sdk/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/sdk/build/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/sdk/update_firmware/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/sdk/debug/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/apps/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/demos/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
-     <loc>https://unisoc.github.io/apps/wifi_repeater/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <loc>https://unisoc.github.io/demos/wifi_repeater/</loc>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/tools/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/tools/dloader/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     <url>
      <loc>https://unisoc.github.io/about/</loc>
-     <lastmod>2018-11-26</lastmod>
+     <lastmod>2018-11-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
 </urlset>
