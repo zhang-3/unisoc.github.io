@@ -531,15 +531,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-power-on-the-board-and-execute-the-following-sequence-of-commands" title="Step 2: Power on the board, and execute the following sequence of commands:" class="md-nav__link">
-    Step 2: Power on the board, and execute the following sequence of commands:
+  <a href="#step-2-power-on-the-board-and-check-the-name-of-your-serial-port" title="Step 2: Power on the board, and check the name of your serial port." class="md-nav__link">
+    Step 2: Power on the board, and check the name of your serial port.
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Step 3: Switch bootstrap pin to Boot mode again and push the reset button." class="md-nav__link">
-    Step 3: Switch bootstrap pin to Boot mode again and push the reset button.
+  <a href="#step-3-updating-firmware-by-the-following-commands" title="Step 3: Updating firmware by the following commands." class="md-nav__link">
+    Step 3: Updating firmware by the following commands.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Step 4: Switch bootstrap pin to Boot mode again and push the reset button." class="md-nav__link">
+    Step 4: Switch bootstrap pin to Boot mode again and push the reset button.
   </a>
   
 </li>
@@ -715,15 +722,22 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-2-power-on-the-board-and-execute-the-following-sequence-of-commands" title="Step 2: Power on the board, and execute the following sequence of commands:" class="md-nav__link">
-    Step 2: Power on the board, and execute the following sequence of commands:
+  <a href="#step-2-power-on-the-board-and-check-the-name-of-your-serial-port" title="Step 2: Power on the board, and check the name of your serial port." class="md-nav__link">
+    Step 2: Power on the board, and check the name of your serial port.
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#step-3-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Step 3: Switch bootstrap pin to Boot mode again and push the reset button." class="md-nav__link">
-    Step 3: Switch bootstrap pin to Boot mode again and push the reset button.
+  <a href="#step-3-updating-firmware-by-the-following-commands" title="Step 3: Updating firmware by the following commands." class="md-nav__link">
+    Step 3: Updating firmware by the following commands.
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#step-4-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Step 4: Switch bootstrap pin to Boot mode again and push the reset button." class="md-nav__link">
+    Step 4: Switch bootstrap pin to Boot mode again and push the reset button.
   </a>
   
 </li>
@@ -760,12 +774,31 @@
 
 <h4 id="step-1-switch-bootstrap-pin-to-download-mode"><strong>Step 1</strong>: Switch bootstrap pin to <code>Download</code> mode.<a class="headerlink" href="#step-1-switch-bootstrap-pin-to-download-mode" title="Permanent link">&para;</a></h4>
 <p><img alt="Download Mode" src="/extras/images/download_mode.png" /></p>
-<h4 id="step-2-power-on-the-board-and-execute-the-following-sequence-of-commands"><strong>Step 2</strong>: Power on the board, and execute the following sequence of commands:<a class="headerlink" href="#step-2-power-on-the-board-and-execute-the-following-sequence-of-commands" title="Permanent link">&para;</a></h4>
+<h4 id="step-2-power-on-the-board-and-check-the-name-of-your-serial-port"><strong>Step 2</strong>: Power on the board, and check the name of your serial port.<a class="headerlink" href="#step-2-power-on-the-board-and-check-the-name-of-your-serial-port" title="Permanent link">&para;</a></h4>
+<pre><code class="shell">$ dmesg | tail
+[18063.042470] usb 1-1.4: new full-speed USB device number 10 using ehci-pci
+[18063.137325] usb 1-1.4: New USB device found, idVendor=10c4, idProduct=ea60
+[18063.137332] usb 1-1.4: New USB device strings: Mfr=1, Product=2, SerialNumber=3
+[18063.137335] usb 1-1.4: Product: CP2104 USB to UART Bridge Controller
+[18063.137338] usb 1-1.4: Manufacturer: Silicon Labs
+[18063.137341] usb 1-1.4: SerialNumber: 018B5764
+[18063.138117] cp210x 1-1.4:1.0: cp210x converter detected
+[18063.210553] usb 1-1.4: reset full-speed USB device number 10 using ehci-pci
+[18063.303396] usb 1-1.4: cp210x converter now attached to ttyUSB0
+</code></pre>
+
+<h4 id="step-3-updating-firmware-by-the-following-commands"><strong>Step 3</strong>: Updating firmware by the following commands.<a class="headerlink" href="#step-3-updating-firmware-by-the-following-commands" title="Permanent link">&para;</a></h4>
 <pre><code class="shell">cd output/repeater/images
 ./update_fw.sh
 </code></pre>
 
-<h4 id="step-3-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button"><strong>Step 3</strong>: Switch bootstrap pin to <code>Boot</code> mode again and push the reset button.<a class="headerlink" href="#step-3-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Permanent link">&para;</a></h4>
+<p>Note that the default serial port name is <code>ttyUSB0</code>.
+Otherwise, you should specify the serial port name got from <strong>Step 2</strong>.</p>
+<pre><code class="shell">cd output/repeater/images
+./update_fw.sh -d ttyUSB0
+</code></pre>
+
+<h4 id="step-4-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button"><strong>Step 4</strong>: Switch bootstrap pin to <code>Boot</code> mode again and push the reset button.<a class="headerlink" href="#step-4-switch-bootstrap-pin-to-boot-mode-again-and-push-the-reset-button" title="Permanent link">&para;</a></h4>
 <p><img alt="Boot Mode" src="/extras/images/boot_mode.png" /></p>
 <p>To update one image or several images, please refer to help of <code>update_fw.sh</code>.</p>
 <pre><code class="shell">./update_fw.sh -h
