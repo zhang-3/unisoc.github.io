@@ -802,6 +802,9 @@ repo start --all master
 <p>The UNISOC Zephyr SDK supports building multiple profiles.
 All supported profiles are stored in the directory <code>apps</code>,
 and can be listed by the following command:</p>
+<pre><code>find apps/ -mindepth 1 -maxdepth 1 -type d ! -name &quot;.*&quot; -exec basename {} \;
+</code></pre>
+
 <ul>
 <li><a href="../../demos/wifi_repeater/">repeater</a></li>
 </ul>
